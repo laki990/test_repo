@@ -8,6 +8,12 @@ double f(double x)
 	printf("Function(%lf)\n",x);
 	return 4/(1+x*x+22)+23;
 }
+
+double mnogoZajebanaFunkcija()
+{
+  return 0;
+}
+
 int main(int argc,char** argv)
 {
 	int n,i;
