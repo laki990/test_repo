@@ -5,6 +5,7 @@
 #define br_intervala 1000000000
 double f(double x)
 {
+	printf("Function(%lf)\n",x);
 	return 4/(1+x*x);
 }
 int main(int argc,char** argv)
