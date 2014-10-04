@@ -6,7 +6,7 @@
 double f(double x)
 {
 	printf("Function(%lf)\n",x);
-	return 4/(1+x*x+22);
+	return 4/(1+x*x+22)+23;
 }
 int main(int argc,char** argv)
 {
