@@ -12,6 +12,7 @@ int main(int argc,char** argv)
 	int n,i;
 	int id,size;
 	double resenje;
+	double var;
 	double dx;
 	double suma=0.0;
 	double start_time;
